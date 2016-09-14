@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Онлайн Юрист</title>
+
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="libs/slick/slick-theme.css">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+
+<header id="not-front-page">
+	<div class="top-navbar-header">
+		<div class="container">
+			<div class="row">
+				<nav class="navbar">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="/">
+								<img src="img/not-front-page-logo.png" alt="Онлайн юрист">
+								<span>Онлайн<br> Юрист</span>
+							</a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="current-item"><a href="#">Главная</a></li>
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Статьи</a></li>
+								<li><a href="#">Тренинги</a></li>
+								<li><a href="#" id="contacts-menu-item">Контакты</a></li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+			</div>
+			<!-- /.row -->
+		</div>
+		<!--end .container-->
+	</div>
+</header>
+
+
+
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+		<section class="top-section-title">
+			<div class="container">
+				<div class="row">
+					<h1>Юридическая консультация</h1>
+					<p><?php if (function_exists('dimox_breadcrumbs')) dimox_breadcrumbs(); ?></p>
+				</div>
+			</div>
+		</section>
+		<section class="top-section-description">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg4 col-md-4 col-sm-4 col-xs-12">
+						<img src="img/top-section-description-img.png" alt="">
+					</div>
+					<div class="col-lg8 col-md-8 col-sm-8 col-xs-12">
+						<h6>Юридическая консультация</h6>
+						<p>Получите детальный анализ Вашей проблемы. Наши юристи предложат все возможные варианты разрешения Вашей проблемы с наименьшими затратами и в кратчайшие сроки.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="how-it-work">
+			<div class="container">
+				<h2>Как это работает</h2>
+				<div class="timeline-section">
+				
+					<div class="dt-sc-timeline not-before-span first right">
+						<div class="dt-sc-one-half column first">
+							<div class="dt-sc-timeline-content">
+								<p>
+									Вы оформляете заявку на сайте, кратко описываете суть проблемы
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="dt-sc-timeline left">
+						<div class="dt-sc-one-half column first">
+							<div class="dt-sc-timeline-content">
+								<p>
+									 С Вами связывается оператор для выяснения выяснения деталей и получения копий документов
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="dt-sc-timeline right">
+						<div class="dt-sc-one-half column first">
+							<div class="dt-sc-timeline-content">
+								<p>
+									Вы сканируете или фотографируете документы, отправляете любым удобным для Вас способом: e-mail, Viber ...
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="dt-sc-timeline left">
+						<div class="dt-sc-one-half column first">
+							<div class="dt-sc-timeline-content">
+								<p>
+									 Мы анализируем все документы, составляем письменную юридическую консультацию с предложением вариантов разрешения проблемы
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="dt-sc-timeline right">
+						<div class="dt-sc-one-half column first">
+							<div class="dt-sc-timeline-content">
+								<p>
+									С Вами связывается юрист для выбора наиболее подходящего для Вас способа разрешения проблемы
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="dt-sc-timeline left">
+						<div class="dt-sc-one-half column first">
+							<div class="dt-sc-timeline-content">
+								<p>
+									 Мы подготавливаем процессуальные документы, необходимые для разрешения Вашей проблемы
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="dt-sc-timeline right not-before-span last">
+						<div class="dt-sc-one-half column first">
+							<div class="dt-sc-timeline-content">
+								<p>
+									Вы получаете комплексную юридическую консультацию с четким алгоритмом действий и всеми необходимыми документами
+								</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<section class="how-question-from-us">
+			<div class="container">
+				<h2>По каким вопросам можно к нам обращаться</h2>
+				<article class="legal-article">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3 class="legal-article-border legal-article-title">Гражданское право</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<p class="legal-article-border">Договорные правоотношения</p>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<p class="legal-article-border">Право собственности</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<p class="legal-article-border">Кредитование и ипотека</p>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<p class="legal-article-border">Взыскание задожености</p>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<p class="legal-article-border">Вод в эксплуатацию</p>
+						</div>
+					</div>
+				</article>
+				
+				
+				<article class="legal-article">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3 class="legal-article-title legal-article-border">Наследственные правоотношения</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<p class="legal-article-border">Вступление в наследство по закону</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<p class="legal-article-border">Вступление в наследство по завещанию </p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<p class="legal-article-border">Порядок вступления</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<p class="legal-article-border">Наследственные споры</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<p class="legal-article-border">Порядок вступления</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<p class="legal-article-border">Оспаривание завещания</p>
+						</div>
+					</div>
+				</article>
+				
+				
+				<article class="legal-article">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3 class="legal-article-border legal-article-title">Семейное право</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-8 col-md-8 col-sm-8">
+							<p class="legal-article-border">Расторжение брака</p>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<p class="legal-article-border">Раздел имущества</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<p class="legal-article-border">Взыскание алиментов</p>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<p class="legal-article-border">Взыскание пени по алиментам</p>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<p class="legal-article-border">Порядок встреч с детьми</p>
+						</div>
+					</div>
+				</article>
+				
+				
+				<article class="legal-article">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3 class="legal-article-border legal-article-title">Жилищные споры</h3>
+						</div>
+					</div>
+				</article>
+				
+				
+				
+				
+				<article class="legal-article">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3 class="legal-article-title legal-article-border">Трудовое право</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<p class="legal-article-border">Защита прав работника</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<p class="legal-article-border">Защита прав работодателя</p>
+						</div>
+					</div>
+				</article>
+				
+				<article class="legal-article">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3 class="legal-article-border legal-article-title">Защита прав потребителя</h3>
+						</div>
+					</div>
+				</article>
+				
+				
+				<article class="legal-article">
+					<div class="row">
+						<div class="col-lg-12">
+							<h3 class="legal-article-title legal-article-border">Автомобильное право</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<p class="legal-article-border">ДТП</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<p class="legal-article-border">Административные правонарушения</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<p class="legal-article-border">Получение страховой выплаты</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<p class="legal-article-border">Взыскане с виновника</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<p class="legal-article-border">Лишение водительского удостоверения</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<p class="legal-article-border">Оспаривание виновности</p>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+		
+		<section class="online-lawyer page-consultation">
+			<div class="container">
+				<div class="row">
+					<h2>Онлайн юрист &#8211; это:</h2>
+					<div class="col-md-3 col-sm-3 col-xs-6 online-lawyer-box">
+						<img src="img/online-lawye-img-1.png" alt="">
+						<p>Просто</p>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 online-lawyer-box">
+						<img src="img/online-lawye-img-2.png" alt="">
+						<p>Быстро</p>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 online-lawyer-box">
+						<img src="img/online-lawye-img-3.png" alt="">
+						<p>Эффективно</p>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6 online-lawyer-box">
+						<img src="img/online-lawye-img-4.png" alt="">
+						<p>Выгодно</p>
+					</div>
+				</div>
+				<!--./.row-->
+			</div>
+			<!--./.container-->
+		</section><!--./section.online-lawyer-->
+		
+		
+		<section class="questionnaire">
+			<h2>
+				<span>Заполните анкету и получите персональную консультацию всего за 570 грн</span>
+			</h2>
+			<div class="container">
+				<div class="page-consultation-step-wrapper">
+					<span class="step-wrapper">
+						<span class="first step done"><i class="fa fa-check" aria-hidden="true"></i></span>
+						<span class="step-name">Шаг 1</span>
+					</span>
+					<span class="step-way"></span>
+					<span class="step-wrapper">
+						<span class="second step">2</span>
+						<span class="step-name">Шаг 2</span>
+					</span>
+				</div>
+				
+				<div class="row message-area">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<span class="step-wrapper">
+							<span class="step done">4</span>
+						</span>
+						<span class="specify-the-problem">Сформулируйте суть проблемы:</span>
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+						<form action="#">
+							<textarea name="" id="" cols="30" rows="10"></textarea>
+						</form>
+					</div>
+				</div>
+				
+				<div class="row section-questionnaire-buttons">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 step-back-button step-button">
+						<a href="#">Вернуться на шаг</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 step-next-button step-button">
+						<a href="#">Получить консультацию за 570 грн</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="advantages">
+			<div class="container">
+				<h2>Приемущества Онлайн Юриста</h2>
+				<ul class="nav nav-tabs" role="tablist" id="myTabs">
+					<li role="presentation" class="active">
+						<a href="#convenience-and-efficiency" aria-controls="convenience-and-efficiency" role="tab" data-toggle="tab">
+							<span class="advantage">Удобство и оперативность</span>
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#modern-and-high-quality-service" aria-controls="modern-and-high-quality-service" role="tab" data-toggle="tab">
+							<span class="advantage second-span">Современный и качественный сервис</span>
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#guaranteed-results" aria-controls="guaranteed-results" role="tab" data-toggle="tab">
+							<span class="advantage third-span">100% гарантия результата</span>
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#work-with-all-regions" aria-controls="work-with-all-regions" role="tab" data-toggle="tab">
+							<span class="advantage fourth-span">Работаем со всеми регионами Украины</span>
+						</a>
+					</li>
+				</ul>
+				<div class="description clearfix tab-content">
+					<div role="tabpanel" class="tab-pane active" id="convenience-and-efficiency">
+						<img src="img/advantage-img.png" alt="">
+						<p>Получить юридическую помощь можно круглосуточно,
+							<br> вне зависимости от того, где Вы находитесь.</p>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="modern-and-high-quality-service">
+						<img src="img/advantage-second-img.png" alt="">
+						<p>Call-центр и Viber-консультант помогут быстро уточнить<br>
+						детали и оперативно решить любую проблему</p>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="guaranteed-results">
+						<img src="img/advantage-third-img.png" alt="">
+						<p>Мы уверены в качестве предоставляемых услуг. <br>
+						 Если мы не смогли Вам помочь - мы вернем деньги. <br>
+						 Просто напишите нам об этом в течении 30 дней. </p>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="work-with-all-regions">
+						<img src="img/advantage-fourth-img.png" alt="">
+						<p>Если Вы находитесь в другом регионе - не проблема. <br>
+						В случае необходимости мы пришлем документы<br>
+						курьерской службой - за свой счет.</p>
+					</div>
+				</div>
+			</div><!--./.container-->
+		</section><!--./ section.advantages-->
+		
+		<section class="solve-the-problem-right-now">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 solve-the-problem-column solve-the-problem-column-first">
+						<h2>Решите проблему прямо сейчас!</h2>
+						<p>Зачастую оттягивание разрешения юридических проблем может иметь нежелательные последствия. Что бы избежать неприятных ситуаций доверьте разрешение Вашей проблемы нашим юристам прямо сейчас!</p>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 solve-the-problem-column solve-the-problem-column-second">
+						<a href="#">Получить консультацию</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="we-guarantee">
+			<div class="container">
+				<h2>Мы гарантирукм</h2>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 we-guarantee-column">
+						<img src="img/we-guarantee-first-img.png" alt="">
+						<h4>Высокое качество</h4>
+						<p>Наши юристы обладают многолетним опытом и оказывают наиболее точные и полные консультации </p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 we-guarantee-column">
+						<img src="img/we-guarantee-second-img.png" alt="">
+						<h4>Возврат денег</h4>
+						<p>Мы уверены в качестве наших консультаций, поэтому гарантируем полный возврат денег в случае, если Ваша проблема не будет решена </p>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 we-guarantee-column">
+						<img src="img/we-guarantee-third-img.png" alt="">
+						<h4>Конфиденциальность</h4>
+						<p>Мы ценим доверие и заботимся о безопасности Ваших личных данных </p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main><!-- #main -->
+</div><!-- #primary -->
+
+
+
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<span class="footer-logo">
+          <img src="img/footer-logo.png" alt="">
+        </span>
+		<div class="container">
+			<div class="row footer-flex-block">
+				<div class="col-md-4 col-sm-12 footer-nav">
+					<ul>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Услуги</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Статьи</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Тренинги</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Политика конфиденциальности</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Согласие с рассылкой</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Отказ от ответсвенности</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-12 form-wrapper">
+					<h3>Остались вопросы?</h3>
+					<form action="#">
+						<input type="text" placeholder="Ваше Имя:">
+						<input type="email" placeholder="Ваш E-mail:">
+						<textarea name="" id="" cols="30" rows="4"></textarea>
+						<button class="btn" type="submit">Задать вопрос</button>
+					</form>
+				</div>
+				<div class="col-md-4 col-sm-12 contact">
+					<h3>Контакты</h3>
+					<p class="address">
+						<img src="img/address-icon.png" alt=""> г. Одесса, ул. Греческая, 44, каб. 101</p>
+					<hr>
+					<p class="phone">
+						<span>(063) 876-9990</span>
+						<br>
+						<span><i class="glyphicon glyphicon-earphone"></i>(099) 798-9990</span>
+						<br>
+						<span>(068) 897-9990</span>
+					</p>
+					<hr>
+					<p class="mail"><i class="glyphicon glyphicon-envelope"></i><a href="#"><em>info@online-lawyer.com.ua</em></a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- #colophon -->
+	<div class="copy clearfix">
+		<div class="container">
+			<p>&#169; 2016 online-lawyer.com.ua Все права защищены.
+				<br><a href="#">Карта сайта.</a></p>
+			<div class="social">
+				<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+
+
+	<a href="#" class="scrollToTop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+
+
+
+
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		$('.multiple-items').slick({
+			infinite: true,
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			prevArrow: $('.prev'),
+			nextArrow: $('.next'),
+			//сколько слайдов за раз перелистнется
+			responsive: [
+				{
+					breakpoint: 720,
+					//сообщает, при какой ширине экрана нужно включать настройки
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+					}
+          }
+      ]
+		});
+	</script>
+
+
+
+
+
+</body>
+
+</html>

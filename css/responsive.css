@@ -1,0 +1,726 @@
+@media only screen and (max-width: 1830px) {
+	section.decision p {
+		margin-bottom: 75px;
+	}
+}
+
+@media only screen and (max-width: 1770px) {
+	section.decision p {
+		margin-bottom: 78px;
+	}
+}
+
+@media only screen and (max-width: 1650px) {
+	section.decision p {
+		margin-bottom: 81px;
+	}
+}
+
+@media only screen and (max-width: 1540px) {
+	section.decision p {
+		margin-bottom: 84px;
+	}
+}
+
+@media only screen and (max-width: 1465px) {
+	section.decision p {
+		margin-bottom: 87px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.slogon {
+		margin-top: 10%;
+	}
+	section.decision p {
+		margin-bottom: 70px;
+	}
+	section.classic-situation .sixth-man-icon {
+		width: 244px;
+		top: 95px;
+	}
+	section.advantages span.advantage {
+		margin: 0 44px;
+	}
+	section.classic-situation .third-man-icon {
+		margin-top: 287px;
+		margin-left: 349px;
+	}
+	section.classic-situation .fourth-step {
+		margin: -54px 0 0 23px;
+	}
+}
+
+@media only screen and (max-width: 1380px) {
+	section.decision p {
+		margin-bottom: 38px;
+	}
+}
+
+@media only screen and (max-width: 1360px) {
+	section.decision p {
+		margin-bottom: 73px;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	section.decision p {
+		margin-bottom: 43px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1240px) {
+	section.classic-situation .sixth-man-icon {
+		right: -195px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.slogan h2 {
+		font-size: 37px;
+	}
+	.slogan p {
+		font-size: 30px;
+	}
+	section.classic-situation .classic-situation-1st-img {
+		width: 540px;
+	}
+	section.classic-situation .container {
+		background-position: 132px 585px;
+	}
+	section.classic-situation .second-step span.wrapper {
+		margin-left: 0;
+	}
+	section.classic-situation .third-step span.wrapper {
+		margin-left: 110px;
+	}
+	section.classic-situation .third-step {
+		margin-top: 126px;
+		margin-right: 45px;
+	}
+	section.classic-situation .third-man-icon {
+		width: 200px;
+		margin-top: 341px;
+		margin-left: 390px;
+	}
+	section.classic-situation .fourth-step p:first-child {
+		padding-right: 30px;
+	}
+	section.classic-situation .fourth-step .column.left .fourth-man-icon {
+		width: 150px;
+	}
+	section.classic-situation .fourth-step .column.right .fifth-man-icon {
+		width: 183px;
+	}
+	section.decision p {
+		max-width: 640px;
+	}
+	section.classic-situation .sixth-man-icon {
+		top: 94px;
+	}
+	section.advantages span.advantage {
+		width: 170px;
+		height: 170px;
+		padding: 60px 10px;
+		font-size: 16px;
+		margin: 0 29px;
+	}
+	section.advantages span.advantage:before {
+		top: 250px;
+		left: 36%;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	section.classic-situation .sixth-man-icon {
+		top: 120px;
+	}
+	
+	.slogan h2 {
+		font-size: 37px;
+	}
+	.slogan p {
+		font-size: 30px;
+	}
+	section.classic-situation .classic-situation-1st-img {
+		width: 540px;
+	}
+	section.classic-situation .container {
+		background-position: 132px 585px;
+	}
+	section.classic-situation span.wrapper {
+		margin-left: 0;
+	}
+	section.classic-situation .second-step span.wrapper {
+		margin-left: -50px;
+	}
+	section.classic-situation .second-step {
+		margin-top: 104px;
+	}
+	section.classic-situation .third-step span.wrapper {
+		margin-left: 110px;
+	}
+	section.classic-situation .third-step {
+		margin-top: 30px;
+		margin-right: 0;
+	}
+	section.classic-situation .third-man-icon {
+		width: 200px;
+		margin-top: 168px;
+		margin-left: 327px;
+	}
+	section.classic-situation .fourth-step p:first-child {
+		padding-right: 30px;
+	}
+	section.classic-situation .fourth-step .column.left .fourth-man-icon {
+		width: 150px;
+	}
+	section.classic-situation .fourth-step .column.right .fifth-man-icon {
+		width: 183px;
+	}
+	section.classic-situation .sixth-man-icon {
+		top: 94px;
+	}
+	section.decision p {
+		margin-bottom: 43px;
+	}
+	section.advantages span.advantage {
+		width: 170px;
+		height: 170px;
+		padding: 60px 10px;
+		font-size: 16px;
+		margin: 0 29px;
+	}
+	section.advantages span.advantage:before {
+		top: 250px;
+		left: 36%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	section.decision p {
+		margin-bottom: 48px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar-brand img {
+		width: 90px;
+		height: 80px;
+	}
+	.navbar-brand span {
+		font-size: 35px;
+		left: 100px;
+	}
+	.navbar-nav li a {
+		font-size: 16px;
+		padding: 7px;
+	}
+	.slogan {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.slogan h2 {
+		font-size: 28px;
+	}
+	.slogan p {
+		font-size: 21px;
+	}
+	section.classic-situation .container {
+		background-position: 119px 490px;
+	}
+	section.classic-situation .classic-situation-1st-img {
+		width: 400px;
+	}
+	section.classic-situation .first-step {
+		margin-top: 220px;
+		font-size: 20px;
+	}
+	section.classic-situation .second-step {
+		padding-right: 110px;
+		margin-top: 97px;
+		font-size: 20px;
+	}
+	section.classic-situation .first-man-icon {
+		width: 180px;
+	}
+	section.classic-situation .second-man-icon {
+		width: 130px;
+		margin-bottom: 9px;
+	}
+	section.classic-situation .third-step {
+		margin-top: -88px;
+		font-size: 20px;
+	}
+	section.classic-situation .third-step span.wrapper {
+		margin-left: 186px;
+	}
+	section.classic-situation .third-man-icon {
+		width: 150px;
+		margin-top: -68px;
+		margin-left: 288px;
+	}
+	section.classic-situation .fourth-step p:first-child {
+		margin-left: 50px;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	section.classic-situation .fourth-step .column.left .fourth-man-icon {
+		width: 110px;
+	}
+	section.classic-situation .fourth-step .column.right .fifth-man-icon {
+		width: 137px;
+	}
+	section.classic-situation .notice {
+		max-width: 82%;
+		font-size: 18px;
+	}
+	section.classic-situation img.arrow {
+		right: 0;
+	}
+	section.classic-situation .sixth-man-icon {
+		width: 200px;
+		top: 127px;
+	}
+	section.decision h4 {
+		font-size: 22px;
+	}
+	section.decision p {
+		font-size: 20px;
+		margin-bottom: 51.5px;
+	}
+	section.advantages span.advantage {
+		width: 160px;
+		height: 160px;
+		margin: 0 7px;
+		padding: 60px 2px;
+	}
+	section.advantages span.advantage:before {
+		top: 229px;
+	}
+	section.advantages .description {
+		margin-top: 88px;
+	}
+	section.our-trainings h2 {
+		margin-bottom: 40px;
+	}
+	section.our-trainings .left-column h5 {
+		font-size: 20px;
+	}
+	section.our-trainings .left-column p {
+		font-size: 17px;
+	}
+	section.our-trainings .left-column a.btn {
+		margin-bottom: 11px;
+	}
+	section.login .btn {
+		padding: 10px;
+	}
+	section.services .service-box {
+		height: 450px;
+	}
+	footer {
+		padding-bottom: 35px;
+	}
+	.footer-flex-block {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.footer-flex-block .footer-nav {order: 3;}
+	.footer-flex-block .form-wrapper {order: 1;}
+	.footer-flex-block .contact {order: 2; margin: 30px 0;}
+	.footer-flex-block .footer-nav ul li {
+		width: 48%;
+		margin: 10px 1%;
+		float: left;
+	}
+	footer .footer-nav {
+		padding-top: 0;
+	}
+	footer .footer-nav ul {
+		padding-left: 0;
+	}
+	footer .form-wrapper input[type="text"] {
+		width: 41%;
+	}
+	footer .form-wrapper input[type="email"] {
+		width: 57.3%;
+	}
+	footer .form-wrapper textarea {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 955px) {
+	section.decision p {
+		margin-bottom: 48px;
+	}
+	section.classic-situation .sixth-man-icon {
+		right: -163px;
+	}
+	section.classic-situation img.arrow {
+		right: -40px;
+	}
+}
+
+@media only screen and (max-width: 920px) {
+	section.decision p {
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	section.decision p {
+		margin-bottom: 51px;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	section.decision p {
+		margin-bottom: 52px;
+	}
+}
+
+@media only screen and (max-width: 823px) {
+	section.classic-situation .sixth-man-icon {
+		right: -145px;
+	}
+}
+
+@media only screen and (max-width: 790px) {
+	section.classic-situation .sixth-man-icon {
+		right: -155px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	section.decision p {
+		margin-bottom: 53px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	section.services .service-box {
+		height: auto;
+	}
+	section.services .service-box p {
+		height: auto;
+	}
+	section.classic-situation .container {
+		background: none;
+	}
+	section.classic-situation .classic-situation-1st-img {
+		width: 74%;
+		margin: 0 13% 40px 13%;
+		float: none;
+	}
+	section.classic-situation .first-step {
+		max-width: 100%;
+		margin: 40px 0 40px 0;
+	}
+	section.classic-situation .second-step {
+		max-width: 100%;
+		margin: 20px 0;
+		padding: 0;
+		text-align: center;
+	}
+	section.classic-situation .second-step span.wrapper {
+		margin: 0 0 25px 0;
+	}
+	section.classic-situation .third-step {
+		max-width: 100%;
+		margin: 0 0 20px 0;
+		text-align: center;
+		padding: 0;
+		float: none;
+	}
+	section.classic-situation .third-step span.wrapper {
+		margin: 0 0 25px 0;
+	}
+	section.classic-situation .third-step p {
+		text-align: center;
+	}
+	section.classic-situation .fourth-step {
+		max-width: 100%;
+		margin: 0;
+	}
+	section.classic-situation .fourth-step p:first-child {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		max-width: 100%;
+	}
+	section.classic-situation .fourth-step .column.left,
+	section.classic-situation .fourth-step .column.right {
+		margin-top: 20px;
+		padding: 0;
+		margin-bottom: 40px;
+	}
+	section.classic-situation .notice {
+		max-width: 98%;
+		margin: 0 1%;
+		padding: 20px;
+	}
+	section.classic-situation img.arrow {
+		display: none;
+	}
+/*
+	section.classic-situation .first-man-icon,
+	section.classic-situation .second-man-icon,
+*/
+	section.classic-situation .third-man-icon,
+/*
+	section.classic-situation .fourth-man-icon,
+	section.classic-situation .fifth-man-icon,
+*/
+	section.classic-situation .sixth-man-icon {
+		display: none;
+	}
+	section.decision h4 {
+		width: 100%;
+		text-align: center;
+	}
+	section.decision p {
+		max-width: 100%;
+		text-align: center;
+		float: none;
+		margin: 0 0 20px 0;
+	}
+	section.online-lawyer .online-lawyer-box {
+		margin-bottom: 40px;
+	}
+	section.classic-situation .notice {
+		margin-bottom: 10px;
+	}
+	
+	.navbar-nav li.current-item a {
+		border-color: transparent;
+	}
+	
+	.navbar-nav li a:hover,
+	.navbar-nav li a:active,
+	.navbar-nav li a:focus{
+		border-color: transparent;
+	}
+	
+	.navbar-collapse {
+		border: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	
+	.navbar-brand {
+		position: relative;
+		float: left;
+		z-index: 1000;
+	}
+	
+	.navbar {
+		position: static;
+	}
+	
+	.navbar-collapse.in {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 30px;
+		background-color: rgba(0,0,0,.9);
+		text-align: center;
+		transition-delay: 0s;
+	}
+	
+	.navbar-nav li a {
+		color: #fff;
+	}
+	
+	.navbar-nav li:hover,
+	.navbar-nav li a:focus{
+		background-color: rgba(200,200,200,.3);
+		border-radius: 0;
+	}
+	
+	ul.nav.navbar-nav {
+		position: relative;
+		top: 50%;
+		-webkit-transform: translate(0,-50%);
+		-ms-transform: translate(0,-50%);
+		-o-transform: translate(0,-50%);
+		transform: translate(0,-50%);
+	}
+	
+	button.navbar-toggle {
+		z-index: 1000;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	section.advantages span.advantage {
+		width: 200px;
+		height: 200px;
+		margin: 40px 10%;
+		padding: 71px 20px;
+	}
+	section.advantages span.advantage:before,
+	section.advantages span.advantage:after {
+		display: none;
+	}
+	section.advantages .description {
+		padding: 40px 10px 40px 20px;
+		margin-top: 20px;
+	}
+	section.advantages .description p {
+		padding: 28px 0px 0px 175px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	section.advantages span.advantage {
+		width: 170px;
+		height: 170px;
+		margin: 25px 10%;
+		padding: 60px 10px;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	.slogan h2 {
+		margin-top: -15px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	header .navbar {
+		margin-top: 50px;
+	}
+	section.classic-situation .classic-situation-1st-img {
+		width: 92%;
+		margin: 0 4% 40px 4%;
+	}
+	section.login form {
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	section.login input {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	section.login .btn {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	section.advantages .container {
+		text-align: center;
+	}
+	section.advantages span.advantage {
+		margin: 25px 3%;
+	}
+}
+
+@media only screen and (max-height: 800px) {
+	.slogan {
+		margin-top: 8%;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.slogan {
+		background-image: none;
+		background-color: #fff;
+		padding: 30px 0 20px;
+	}
+}
+
+@media only screen and (max-height: 560px) {
+	.slogan {
+		margin-top: 3%;
+	}
+}
+
+@media only screen and (max-width: 514px) {
+	footer .form-wrapper input[type="email"] {
+		width: 100%;
+	}
+	
+	footer .form-wrapper input[type="text"] {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	section.advantages .description {
+		text-align: center;
+	}
+	section.advantages .description img {
+		float: none;
+		margin: 0 0 20px 0;
+	}
+	
+	section.advantages .description p {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 475px) {
+	section.login .btn {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	.copy {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	
+	.copy p {
+		float: none;
+	}
+	
+	.copy .social {
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	section.classic-situation .first-man-icon {
+		width: 120px;
+	}
+	section.classic-situation .second-man-icon {
+		width: 83px;
+	}
+	section.classic-situation .fourth-step .column.left .fourth-man-icon {
+		width: 70px;
+	}
+	section.classic-situation .fourth-step .column.right .fifth-man-icon {
+		width: 97px;
+	}
+}
+
+@media only screen and (max-height: 736px) and (max-width: 415px) {
+	.slogan {
+		margin-top: 40%;
+	}
+	
+	section.classic-situation .fourth-step .column.right .fifth-man-icon {
+		width: 143px;
+	}
+}
+
+@media only screen and (max-height: 414px) and (max-width: 736px) {
+	.header-button {
+		margin-top: 30px;
+	}
+	
+	.services .service-wrapper {
+		width: 50%;
+	}
+}
